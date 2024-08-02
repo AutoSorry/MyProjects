@@ -1,0 +1,12 @@
+var x, y;
+x = 1 - 5;
+if x < 0:
+    y = -x;
+else
+{
+    x = -x;
+    y = x + 10;
+}
+output y;
+output x;
+END;

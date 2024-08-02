@@ -1,0 +1,8 @@
+var x, y;
+input x;
+if ((x + 1) * 2) == 2:
+    y = 1;
+else
+    y = x;
+output y;
+END;

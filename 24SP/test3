@@ -1,0 +1,20 @@
+var n, i, j, factorial;
+i=1;
+j=1;
+factorial=1;
+input n;
+while i < n || i == n :
+{
+    while !(j>i) :
+    {
+        factorial = factorial * j;
+        if ((i-j)%2)==1:
+            factorial=factorial/j;
+        j=j+1;
+    }
+    output factorial;
+    i=i+1;
+    j = 1;
+    factorial = 1;
+}
+END;

@@ -1,0 +1,19 @@
+var a, d, c;
+def abs()
+{
+    if d < 0:
+        d = -d;
+    return;
+}
+input a;
+d = a;
+abs();
+a = d;
+output a;
+input c;
+c = a - c;
+d = c;
+abs();
+c = d;
+output c;
+END;
